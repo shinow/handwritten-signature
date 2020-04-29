@@ -1007,7 +1007,12 @@ var render = function() {
   return _c(
     "v-uni-view",
     { staticClass: _vm._$g(0, "sc"), attrs: { _i: 0 } },
-    [_c("v-uni-image", { attrs: { src: _vm._$g(1, "a-src"), _i: 1 } })],
+    [
+      _c("v-uni-image", {
+        staticClass: _vm._$g(1, "sc"),
+        attrs: { src: _vm._$g(1, "a-src"), _i: 1 }
+      })
+    ],
     1
   )
 }
@@ -1099,7 +1104,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.container {\n\tpadding: 20px;\n\tfont-size: 14px;\n\tline-height: 24px;\n}\n", ""]);
+exports.push([module.i, "\n.container {\n\tpadding-top: 20upx;\n\tpadding-bottom: 100upx;\n\t-webkit-box-sizing: border-box;\n\t        box-sizing: border-box;\n}\n.sign {\n\tbackground-color: #DDDDDD;\n\twidth: 700upx;\n\tmargin: 0 25upx;\n\theight: calc(100vh - 140upx);\n}\n", ""]);
 // Exports
 module.exports = exports;
 

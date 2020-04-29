@@ -1,6 +1,6 @@
 <template>
 	<view class="container">
-		<image :src="src">
+		<image class="sign" :src="src">
 	</view>
 </template>
 
@@ -23,8 +23,14 @@
 
 <style>
 	.container {
-		padding: 20px;
-		font-size: 14px;
-		line-height: 24px;
+		padding-top: 20upx;
+		padding-bottom: 100upx;
+		box-sizing: border-box;
+	}
+	.sign {
+		background-color: #DDDDDD;
+		width: 700upx;
+		margin: 0 25upx;
+		height: calc(100vh - 140upx);
 	}
 </style>
