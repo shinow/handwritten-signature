@@ -2,12 +2,12 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
+			"navigationBarTitleText": "首页"
 		}
 	},{
 		"path": "pages/index/show",
 		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
+			"navigationBarTitleText": "查看签名"
 		}
 	}],
 	"globalStyle": {
