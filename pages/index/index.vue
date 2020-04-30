@@ -165,17 +165,9 @@
 </script>
 
 <style>
-	.ts {
-		color: #FF485D;
-		font-size: 30upx;
-		height: 100upx;
-		line-height: 100upx;
-		padding-left: 20upx;
-	}
-
 	canvas {
 		background-color: #DDDDDD;
-		width: 700upx;
+		width: calc(100vw - 47upx);
 		margin: 0 25upx;
 		height: calc(100vh - 140upx);
 	}
@@ -193,14 +185,14 @@
 	.caozuo {
 		display: flex;
 		height: 100upx;
-		width: 750upx;
+		width: 100%;
 		position: fixed;
 		left: 0;
 		bottom: 0;
 	}
 
 	.caozuo view {
-		width: 375upx;
+		width: 100%;
 		text-align: center;
 		height: 100upx;
 		line-height: 100upx;

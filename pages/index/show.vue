@@ -29,7 +29,7 @@
 	}
 	.sign {
 		background-color: #DDDDDD;
-		width: 700upx;
+		width: calc(100vw - 47upx);
 		margin: 0 25upx;
 		height: calc(100vh - 140upx);
 	}
